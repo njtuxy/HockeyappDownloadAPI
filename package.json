@@ -1,0 +1,15 @@
+{
+  "name": "HockeyAppDownloadAPI",
+  "version": "0.0.1",
+  "description": "A Simple Script To Allow You Download App From HockeyApp from Command Line Window",
+  "main": "request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^0.4.1",
+    "request": "^2.59.0"
+  }
+}
