@@ -10,7 +10,7 @@ This a simple node.js script which allows you to download you builds from Hockey
 
 	You can follow this instruction here: https://docs.npmjs.com/getting-started/installing-node
 
-(2) Run <code> npm install</code> in the folder, it will install the required npms. 
+(2) Then run <code> npm install</code> in the folder, it will install the required npms. 
 
 <h2> Run the script </h2>
 
