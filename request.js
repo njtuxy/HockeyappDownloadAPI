@@ -23,7 +23,7 @@ if(file===undefined){
 }
 
 var options1 = {
-  url: 'https://rink.hockeyapp.net/api/2/apps/'+ app_token +'/app_versions',
+  url: 'https://rink.hockeyapp.net/api/2/apps/'+ app_token +'/app_versions?page=1',
   headers: {
     'X-HockeyAppToken': api_token
   }
@@ -36,7 +36,7 @@ request(options1, function(error, response, body){
 	    var download_url = info.app_versions[0].download_url;
 	    console.log("Get download url successfully!")
 	    var options2 = {
-	    	url: 'https://rink.hockeyapp.net/api/2/apps/'+ app_token +'/app_versions?include_build_urls=true&build_url=' + download_url,
+	    	url: 'https://rink.hockeyapp.net/api/2/apps/'+ app_token +'/app_versions?page=1&include_build_urls=true&build_url=' + download_url,
 	    	headers: {
 			    'X-HockeyAppToken': api_token
   			}
